@@ -1,0 +1,11 @@
+/* this is comment sign
+      (adding styles in another page bcause u can add this same styles 
+       for another html file or html website) */
+h1 {
+  color: rgb(18, 40, 25);
+  text-align: center;
+
+}
+body{
+  background-color: rgb(65, 128, 82);
+}
