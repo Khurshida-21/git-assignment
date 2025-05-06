@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            background-color: #536878;
+            color: #EAE0C8;
+            margin-bottom: 10px;
+            line-height: 50px;
+        }
+
+        
+        nav{
+            width: 100%;
+           background-color: #536878;
+           margin-bottom: 10px;
+           padding: 10px;
+           text-align: center;
+           color: #EAE0C8;
+           word-spacing: 20px;
+         }
+
+         nav a{
+            color: #EAE0C8;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            height: 500px;
+            width: 100%;
+            padding: 20px;
+            background-color: #EAE0C8;
+            justify-content: space-between;
+            text-align: center;
+        }
+        
+        .left{
+            background-color: #536878;
+            color: #EAE0C8;
+            padding: 20px;
+            width: 69%;
+        }
+
+        .right{
+            background-color: #536878;
+            color: #EAE0C8;
+            padding: 20px;
+            width: 30%;
+        
+         }
+
+         .right nav{
+            margin-top: 10px;
+            background-color: #EAE0C8;
+            color: #536878;
+            padding: 10px;
+            text-align: center;
+         }
+
+         .right nav a{
+            color: #536878;
+            text-decoration: none;
+            display: block;
+            line-height: 50px;
+         }
+
+
+         footer{
+            background-color: #536878;
+            color: #EAE0C8;
+            text-align: center;
+            padding: 10px;
+         }
+         
+        
+
+    </style>
+</head>
+<body>
+   <header>
+    <h1>This is header</h1>
+   </header>
+
+   <nav>
+    <a href="#">HOME</a>
+    |
+     <a href="#">ABOUT</a>
+     |
+          <a href="#">CONTACT</a>
+</nav>
+
+    <section>
+        <div class="left">
+            <h2>main section content</h2>
+        </div>
+        <div class="right">
+            <nav>
+               <u><a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a> </u>
+            </nav>
+
+        </div>
+    </section>
+
+        <footer>
+            <p>Copyright &copy;2023</p>
+        </footer>
+</body>
+</html>
